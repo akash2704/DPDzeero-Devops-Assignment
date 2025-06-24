@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.a
+/service1/service1
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# General
+.DS_Store
+*~
+*.swp
+*.swo
+.env
+.env.*
+!/.env.example
+
+# macOS
+__MACOSX/ 
